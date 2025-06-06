@@ -322,6 +322,7 @@ footer {
 #service-table {
     background: #101940;
     color: #ffd600;
+    border: 3px solid #ffd600;
     border-radius: 18px;
     border-collapse: separate;
     border-spacing: 0;
@@ -340,8 +341,8 @@ footer {
 }
 
 #service-table th {
-    background: #ffd600;
-    color: #101940;
+    background: #101940;
+    color: #ffd600;
     font-size: 1.18rem;
     letter-spacing: 0.5px;
     border-bottom: 3px solid #ffd600;
