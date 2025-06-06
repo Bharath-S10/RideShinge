@@ -40,9 +40,11 @@ nav {
 /* BOTH logos: fill nav bar height */
 .logo-icon,
 .title-image {
-  height: 100%;           /* Makes both logos exactly as tall as nav bar */
+  height: 100%;           /* Keep base height equal to nav bar */
   width: auto;
   display: block;
+  transform: scale(1.2);  /* Enlarge logos while nav bar stays fixed */
+  transform-origin: center;
 }
 
 /* Nav links */
