@@ -80,4 +80,17 @@ document.addEventListener("DOMContentLoaded", () => {
       alert("Failed to submit. Please try again.");
     });
   });
+
+  // Hero background slideshow
+  const heroImages = [
+    'Images/background-image.png',
+    'Images/mobile_detailing_setup.png'
+  ];
+  const header = document.querySelector('header');
+  let heroIndex = 0;
+  setInterval(() => {
+    heroIndex = (heroIndex + 1) % heroImages.length;
+    header.style.background = `url('${heroImages[heroIndex]}') no-repeat center center`;
+    header.style.backgroundSize = 'cover';
+  }, 5000);
 });
