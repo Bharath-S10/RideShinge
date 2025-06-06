@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <title>RideShine Mobile Car Wash</title>
   <link rel="stylesheet" href="Style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:600,400&display=swap" rel="stylesheet" />
 </head>
 <body>
 
@@ -52,20 +53,58 @@
   <!-- Services Section -->
   <section id="services">
     <h2>Our Services</h2>
-    <div class="service-list">
-      <div class="service" onclick="openModal('basicModal')">
-        <h3>Basic Wash</h3>
-        <p>Exterior hand wash and tire shine</p>
-      </div>
-      <div class="service" onclick="openModal('deluxeModal')">
-        <h3>Deluxe Wash</h3>
-        <p>Exterior & interior cleaning, vacuum, wax</p>
-      </div>
-      <div class="service" onclick="openModal('premiumModal')">
-        <h3>Premium Detailing</h3>
-        <p>Deep clean, shampoo, clay bar treatment</p>
-      </div>
-    </div>
+    <table id="service-table">
+      <tr>
+        <th>SERVICE</th>
+        <th>EXPRESS WASH</th>
+        <th>PREMIUM DETAIL</th>
+      </tr>
+      <tr>
+        <td>Exterior wash &amp; dry</td>
+        <td class="check">&#10003;</td>
+        <td class="check">&#10003;</td>
+      </tr>
+      <tr>
+        <td>Wheel &amp; tire clean</td>
+        <td class="check">&#10003;</td>
+        <td class="check">&#10003;</td>
+      </tr>
+      <tr>
+        <td>Interior vacuum</td>
+        <td class="light">Light</td>
+        <td class="check">&#10003;</td>
+      </tr>
+      <tr>
+        <td>Carpet/seat shampoo/steam</td>
+        <td></td>
+        <td class="check">&#10003;</td>
+      </tr>
+      <tr>
+        <td>Floor mats cleaned</td>
+        <td></td>
+        <td class="check">&#10003;</td>
+      </tr>
+      <tr>
+        <td>Interior dressing</td>
+        <td></td>
+        <td class="check">&#10003;</td>
+      </tr>
+      <tr>
+        <td>Tire shine</td>
+        <td class="check">&#10003;</td>
+        <td class="check">&#10003;</td>
+      </tr>
+      <tr>
+        <td>Door jambs wiped</td>
+        <td></td>
+        <td class="check">&#10003;</td>
+      </tr>
+      <tr>
+        <td>Interior window clean</td>
+        <td></td>
+        <td class="check">&#10003;</td>
+      </tr>
+    </table>
   </section>
 
   <!-- Contact Section -->
