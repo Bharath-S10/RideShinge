@@ -210,7 +210,7 @@ header::before {
 
 .service-list .service {
     text-decoration: none;
-    color: #ffd600;
+    color: #ffffff;
     width: 250px;
     background-color: #101940;
     padding: 20px;
@@ -342,7 +342,7 @@ footer {
 /* Service Table */
 #service-table {
     background: #101940;
-    color: #ffd600;
+    color: #ffffff;
     border: 3px solid #ffd600;
     border-radius: 18px;
     border-collapse: separate;
@@ -364,7 +364,7 @@ footer {
 
 #service-table th {
     background: #101940;
-    color: #ffd600;
+    color: #ffffff;
     font-size: 1.18rem;
     letter-spacing: 0.5px;
     border-bottom: 3px solid #ffd600;
@@ -376,19 +376,19 @@ footer {
 
 #service-table td {
     background: #101940;
-    color: #ffd600;
+    color: #ffffff;
     vertical-align: middle;
 }
 
 #service-table .check {
     font-size: 1.5em;
     font-weight: bold;
-    color: #ffd600;
+    color: #ffffff;
     text-align: center;
 }
 
 #service-table .light {
-    color: #ffd600;
+    color: #ffffff;
     font-weight: 600;
     font-size: 1.08em;
     text-align: center;
