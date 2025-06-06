@@ -1,4 +1,4 @@
-/* Ride & Revive Mobile Car Wash - Main Stylesheet */
+/* RideShine Mobile Car Wash - Main Stylesheet */
 
 /* Global Styles */
 body {
@@ -11,7 +11,7 @@ body {
 
 /* Navigation Bar */
 nav {
-  background-color: #101940;
+  background-color: #9d9884;
   padding: 0;
   position: sticky;
   top: 0;
@@ -144,8 +144,8 @@ header::before {
 }
 
 .hero-content button:hover {
-    background-color: #e6f3ff;
-    color: #005fa3;
+    background-color: #f1f0e8;
+    color: #9d9884;
 }
 
 /* About Us */
@@ -246,7 +246,7 @@ input[type="date"] {
 }
 
 button[type="submit"] {
-    background-color: #0077cc;
+    background-color: #9d9884;
     color: white;
     border: none;
     padding: 12px;
@@ -256,7 +256,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #005fa3;
+    background-color: #8c856f;
 }
 
 /* Footer */
