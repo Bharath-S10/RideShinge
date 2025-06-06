@@ -124,8 +124,11 @@ header::before {
     max-width: 500px;
 }
 
-.hero-content h1 {
-    font-size: 48px;
+
+/* Hero logo replaces heading text */
+.hero-logo {
+    height: 48px;
+    width: auto;
     margin-bottom: 10px;
 }
 
