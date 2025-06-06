@@ -134,7 +134,7 @@ header::before {
     width: auto;
     display: block; /* allow vertical margins to take effect */
     /* Position logo just above the tagline */
-    margin-bottom: 10px;
+    margin-bottom: 0.5px;
 }
 
 .hero-content p {
