@@ -129,7 +129,8 @@ header::before {
 .hero-logo {
     height: 260px; /* make hero logo larger for the home page */
     width: auto;
-    margin-bottom: 15px; /* keep text directly underneath */
+    /* Position logo closer above the tagline */
+    margin-bottom: 0.25in;
 }
 
 .hero-content p {
