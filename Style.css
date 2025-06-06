@@ -127,7 +127,7 @@ header::before {
 
 /* Hero logo replaces heading text */
 .hero-logo {
-    height: 48px;
+    height: 96px; /* enlarge hero logo */
     width: auto;
     margin-bottom: 10px;
 }
