@@ -152,6 +152,7 @@ header::before {
 #about {
     padding: 40px 20px;
     text-align: center;
+    scroll-margin-top: 80px; /* Prevent content from hiding behind navbar */
 }
 
 /* Gallery */
@@ -181,6 +182,7 @@ header::before {
     padding: 40px 20px;
     background-color: white;
     text-align: center;
+    scroll-margin-top: 80px; /* Prevent content from hiding behind navbar */
 }
 
 #services h2 {
@@ -217,6 +219,7 @@ header::before {
     padding: 40px 20px;
     background-color: #e8f0fe;
     text-align: center;
+    scroll-margin-top: 80px; /* Prevent content from hiding behind navbar */
 }
 
 form {
