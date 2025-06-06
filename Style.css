@@ -5,8 +5,8 @@ body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
-    color: #333;
+    background-color: #fff;
+    color: #101940;
 }
 
 /* Navigation Bar */
@@ -67,23 +67,25 @@ nav {
   height: 100%;
 }
 
+
 .nav-links li a {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: white;
+  color: #ffd600;
   font-weight: 500;
   font-size: 16px;
   padding: 0 8px;
   margin: 0;
   line-height: 1;
   height: 100%;
-  transition: background 0.2s;
+  transition: background 0.2s, color 0.2s;
 }
 
 .nav-links li a:hover,
 .nav-links li a:focus {
-  background: rgba(0,0,0,0.07);
+  background: #fff;
+  color: #101940;
   outline: none;
 }
 
@@ -132,11 +134,12 @@ header::before {
     margin-bottom: 30px;
 }
 
+
 .hero-content button {
     padding: 12px 25px;
     font-size: 16px;
-    background-color: #fff;
-    color: #000;
+    background-color: #ffd600;
+    color: #101940;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -144,8 +147,8 @@ header::before {
 }
 
 .hero-content button:hover {
-    background-color: #f1f0e8;
-    color: #9d9884;
+    background-color: #101940;
+    color: #ffd600;
 }
 
 /* About Us */
@@ -199,9 +202,9 @@ header::before {
 
 .service-list .service {
     text-decoration: none;
-    color: inherit;
+    color: #ffd600;
     width: 250px;
-    background-color: #f0f0f0;
+    background-color: #101940;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
@@ -212,12 +215,14 @@ header::before {
 .service-list .service:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    background-color: #182256;
 }
 
 /* Contact Section */
 #contact {
     padding: 40px 20px;
-    background-color: #e8f0fe;
+    background-color: #101940;
+    color: #fff;
     text-align: center;
     scroll-margin-top: 80px; /* Prevent content from hiding behind navbar */
 }
@@ -234,13 +239,13 @@ input,
 textarea {
     padding: 10px;
     border-radius: 4px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffd600;
     font-size: 16px;
 }
 select {
     padding: 10px;
     border-radius: 4px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffd600;
     font-size: 16px;
     margin-bottom: 10px;
 }
@@ -248,30 +253,31 @@ select {
 input[type="date"] {
     padding: 10px;
     border-radius: 4px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffd600;
     font-size: 16px;
 }
 
 button[type="submit"] {
-    background-color: #9d9884;
-    color: white;
+    background-color: #ffd600;
+    color: #101940;
     border: none;
     padding: 12px;
     cursor: pointer;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 button[type="submit"]:hover {
-    background-color: #8c856f;
+    background-color: #fff;
+    color: #101940;
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
-    color: white;
+    background-color: #101940;
+    color: #ffd600;
 }
 
 /* Modal Styles */
