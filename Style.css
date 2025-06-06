@@ -43,12 +43,10 @@ nav {
   height: 100%;           /* Keep base height equal to nav bar */
   width: auto;
   display: block;
-  transform: scale(1.2);  /* Enlarge logos while nav bar stays fixed */
-  transform-origin: center;
+  margin: 0;             /* Prevent unexpected spacing */
 }
 .title-image {
-  transform: scale(3);
-  margin-left: -20px;
+  margin-left: 0;         /* Align neatly next to the icon */
 }
 
 /* Nav links */
