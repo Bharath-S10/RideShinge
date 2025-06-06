@@ -46,6 +46,9 @@ nav {
   transform: scale(1.2);  /* Enlarge logos while nav bar stays fixed */
   transform-origin: center;
 }
+.title-image {
+  transform: scale(1.6);
+}
 
 /* Nav links */
 .nav-links {
