@@ -122,6 +122,9 @@ header::before {
     color: white;
     text-align: right;
     max-width: 500px;
+    display: flex;             /* allow easy vertical alignment */
+    flex-direction: column;
+    align-items: flex-end;     /* keep elements right-aligned */
 }
 
 
@@ -130,8 +133,8 @@ header::before {
     height: 260px; /* make hero logo larger for the home page */
     width: auto;
     display: block; /* allow vertical margins to take effect */
-    /* Position logo half an inch above the tagline */
-    margin-bottom: 0.5in;
+    /* Position logo just above the tagline */
+    margin-bottom: 10px;
 }
 
 .hero-content p {
