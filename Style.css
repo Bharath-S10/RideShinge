@@ -127,9 +127,9 @@ header::before {
 
 /* Hero logo replaces heading text */
 .hero-logo {
-    height: 200px; /* make hero logo slightly larger than navbar logo */
+    height: 260px; /* make hero logo larger for the home page */
     width: auto;
-    margin-bottom: 10px;
+    margin-bottom: 15px; /* keep text directly underneath */
 }
 
 .hero-content p {
