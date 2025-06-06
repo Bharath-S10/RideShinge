@@ -11,7 +11,7 @@ body {
 
 /* Navigation Bar */
 nav {
-  background-color: #9d9884;
+  background-color: #101940;
   padding: 0;
   position: sticky;
   top: 0;
@@ -48,6 +48,7 @@ nav {
 }
 .title-image {
   transform: scale(3);
+  margin-left: -20px;
 }
 
 /* Nav links */
