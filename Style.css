@@ -170,8 +170,8 @@ header::before {
 }
 
 .about-logo {
-    width: 180px;
-    height: auto;
+    height: 72px;
+    width: auto;
     display: block;
     margin: 0 auto 10px auto;
 }
