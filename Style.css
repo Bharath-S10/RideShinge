@@ -213,7 +213,14 @@ header::before {
     padding: 8px 16px;
     border-radius: 20px;
     font-weight: bold;
-    margin: 20px 0;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.tagline-button {
+    border: none;
+    cursor: pointer;
+    display: block;
 }
 
 
@@ -227,6 +234,14 @@ header::before {
 }
 
 .vision-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 260px;
+    max-width: 400px;
+}
+
+.mission-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -527,6 +542,9 @@ footer {
     }
 
     .vision-wrapper {
+        max-width: none;
+    }
+    .mission-wrapper {
         max-width: none;
     }
 }
