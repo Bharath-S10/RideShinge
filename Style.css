@@ -225,11 +225,6 @@ header::before {
     align-items: stretch;
 }
 
-.vision-group {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .mission-vision .mv-card {
     background-color: #e8f0ff;
@@ -250,7 +245,7 @@ header::before {
 .mission-vision .mv-card p {
     margin-top: auto;
 }
-.mission-vision .vision-logo {
+.vision-logo {
     display: block;
     width: 120px;
     height: auto;
