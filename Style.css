@@ -171,12 +171,6 @@ header::before {
     color: #fff; /* white text */
 }
 
-.about-logo {
-    height: 80px;
-    width: auto;
-    display: block;
-    margin: 0 auto 10px auto;
-}
 
 #about h2 {
     color: #fff;
