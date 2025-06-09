@@ -157,6 +157,8 @@ header::before {
     padding: 40px 20px;
     text-align: center;
     scroll-margin-top: 80px;
+    max-width: 8.5in;
+    margin: 0 auto;
 }
 #about h2 {
     color: #101940;
