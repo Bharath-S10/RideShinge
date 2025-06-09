@@ -223,6 +223,12 @@ header::before {
     flex-wrap: wrap;
 }
 
+.vision-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .mission-vision .mv-card {
     background-color: #e8f0ff;
     border-radius: 10px;
