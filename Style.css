@@ -260,11 +260,11 @@ header::before {
 .vision-card {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
 }
 .vision-card p {
     margin-top: auto;
-    text-align: left;
+    text-align: center;
 }
 
 /* =======================
