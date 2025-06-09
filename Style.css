@@ -238,9 +238,19 @@ header::before {
 }
 .mission-vision .vision-logo {
     display: block;
-    width: 80px;
+    width: 120px;
     height: auto;
     margin: 0 auto 10px;
+}
+
+.vision-card {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.vision-card p {
+    margin-top: auto;
+    text-align: left;
 }
 
 /* =======================
