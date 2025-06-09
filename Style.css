@@ -181,6 +181,11 @@ header::before {
     margin-top: 0;
 }
 
+/* Spacing above the "What Makes RideShine Special?" heading */
+#about .about-subheading {
+    margin-top: 30px;
+}
+
 .special-list {
     list-style: none;
     padding: 0;
