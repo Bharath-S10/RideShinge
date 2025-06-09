@@ -161,6 +161,13 @@ header::before {
 #about h2 {
     color: #101940;
 }
+#about ul {
+    list-style: disc;
+    margin: 20px auto;
+    padding-left: 20px;
+    max-width: 600px;
+    text-align: left;
+}
 
 /* =======================
    Gallery Section
