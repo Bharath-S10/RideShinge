@@ -178,9 +178,10 @@ header::before {
     margin-top: 0;
 }
 
-/* Spacing above the "What Makes RideShine Special?" heading */
+/* Spacing around the "What Makes RideShine Special?" heading */
 #about .about-subheading {
     margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .special-list {
@@ -221,6 +222,7 @@ header::before {
     margin-top: 30px;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: stretch;
 }
 
 .vision-group {
@@ -236,11 +238,17 @@ header::before {
     flex: 1 1 260px;
     max-width: 400px;
     color: #101940;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .mission-vision .mv-card h3 {
     color: #101940;
     margin-top: 0;
+}
+.mission-vision .mv-card p {
+    margin-top: auto;
 }
 .mission-vision .vision-logo {
     display: block;
