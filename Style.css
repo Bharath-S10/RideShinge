@@ -228,6 +228,7 @@ header::before {
     padding: 20px;
     flex: 1 1 260px;
     max-width: 400px;
+    color: #101940;
 }
 
 .mission-vision .mv-card h3 {
