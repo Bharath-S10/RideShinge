@@ -19,6 +19,13 @@ window.onclick = function (event) {
 };
 
 // Form and select handling
+function toggleMenu() {
+  const menu = document.getElementById("mobileMenu");
+  if (menu) {
+    menu.classList.toggle("open");
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("booking-form");
   const makeSelect = document.getElementById("car-make");
@@ -81,12 +88,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  const hamburger = document.getElementById("hamburger");
   const mobileMenu = document.getElementById("mobileMenu");
-  if (hamburger && mobileMenu) {
-    hamburger.addEventListener("click", () => {
-      mobileMenu.classList.toggle("open");
-    });
+  if (mobileMenu) {
     mobileMenu.querySelectorAll("a").forEach(link => {
       link.addEventListener("click", () => {
         mobileMenu.classList.remove("open");

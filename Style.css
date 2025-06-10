@@ -113,11 +113,6 @@ nav {
 }
 
 
-@media (max-width: 768px) {
-    .mobile-menu.open {
-        display: flex;
-    }
-}
 
 
 /* =======================
@@ -829,5 +824,36 @@ footer {
 @media (max-width: 768px) {
   .mission-box {
     margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #0a0a23;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 1rem 0;
+  }
+  .mobile-menu.open {
+    display: flex;
+  }
+  .mobile-menu a {
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+  }
+  .hamburger {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
   }
 }
