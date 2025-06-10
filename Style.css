@@ -785,3 +785,23 @@ footer {
     display: none;
   }
 }
+
+/* Override layout for mobile to ensure about section is centered */
+@media (max-width: 768px) {
+  .about-section {
+    all: unset;
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto !important;
+    padding: 1.5rem 1rem;
+    display: block;
+    text-align: center !important;
+    box-sizing: border-box;
+  }
+  .about-section * {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+  }
+}
