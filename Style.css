@@ -530,7 +530,7 @@ footer {
 /* =======================
    Responsive (Mobile)
 ======================= */
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .about-special-row, .about-mv-row {
         flex-direction: column;
         gap: 24px;
@@ -562,10 +562,11 @@ footer {
         font-size: 1.2em;
     }
     .hero-content {
-        right: 3%;
-        left: 3%;
-        max-width: 97vw;
+        margin: 0 auto 80px auto;
+        max-width: 94vw;
         gap: 10px;
+        text-align: center;
+        align-items: center;
     }
     .hero-logo {
         height: 120px;
@@ -596,6 +597,8 @@ footer {
     }
     .nav-links {
         gap: 25px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .nav-links li a {
         font-size: 18px;
