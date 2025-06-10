@@ -607,6 +607,19 @@ footer {
         display: block;
     }
 }
+@media (max-width: 768px) {
+    body {
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 0 16px;
+    }
+    img,
+    .about-card,
+    section {
+        display: block;
+        margin: 0 auto;
+    }
+}
 @media (max-width: 600px) {
     #service-table th,
     #service-table td {
