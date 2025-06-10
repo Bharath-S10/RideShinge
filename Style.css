@@ -589,4 +589,15 @@ footer {
         width: 130px;
         max-width: 170px;
     }
+    /* Larger navigation bar and links on small screens */
+    .nav-container {
+        height: 90px;
+    }
+    .nav-links {
+        gap: 25px;
+    }
+    .nav-links li a {
+        font-size: 18px;
+        padding: 0 12px;
+    }
 }
