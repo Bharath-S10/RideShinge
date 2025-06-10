@@ -647,3 +647,10 @@ footer {
     }
 
 }
+
+@media (min-width: 769px) {
+    /* Ensure mobile menu stays hidden on larger screens */
+    .mobile-menu {
+        display: none !important;
+    }
+}
