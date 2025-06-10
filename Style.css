@@ -249,6 +249,10 @@ header::before {
     max-width: 400px;
 }
 
+.mission-wrapper .mv-card {
+    width: 100%;
+}
+
 .vision-wrapper .mv-card {
     width: 100%;
 }
