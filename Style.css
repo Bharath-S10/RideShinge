@@ -274,10 +274,14 @@ header::before {
 
 .mission-card {
     grid-area: mission;
+    width: calc(100% - 1rem);
+    margin-right: 1rem;
 }
 
 .vision-card {
     grid-area: vision;
+    width: calc(100% - 1rem);
+    margin-left: 1rem;
 }
 
 .vision-logo {
@@ -552,5 +556,13 @@ footer {
     }
     .logo-container, .special-section, .mission-card, .vision-card {
         width: 100%;
+    }
+    .mission-card,
+    .vision-card {
+        margin: 0;
+        width: 100%;
+    }
+    .mission-card {
+        margin-bottom: 2rem;
     }
 }
