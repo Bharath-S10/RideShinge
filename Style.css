@@ -730,5 +730,18 @@ footer {
     justify-content: center;
     padding: 1.5rem 1rem;
   }
+  .about-section h2,
+  .about-section h3,
+  .about-section p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-section img,
+  .about-section .tagline-badge,
+  .about-section .badge {
+    display: block;
+    margin: 1rem auto;
+  }
 }
 
