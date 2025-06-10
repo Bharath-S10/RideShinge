@@ -221,6 +221,7 @@ header::before {
     border: none;
     cursor: pointer;
     display: block;
+    margin: 20px auto 0; /* ensure clear space below the boxes */
 }
 
 
@@ -261,9 +262,10 @@ header::before {
 .mission-vision .mv-card h3 {
     color: #101940;
     margin-top: 0;
+    margin-bottom: 10px; /* keep heading close to text */
 }
 .mission-vision .mv-card p {
-    margin-top: auto;
+    margin: 0; /* remove large gap between heading and text */
 }
 .logo-container {
     grid-area: logo;
