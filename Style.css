@@ -750,7 +750,7 @@ footer {
   .mission-box,
   .vision-box {
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -763,11 +763,22 @@ footer {
   .mission-box > :last-child,
   .vision-box > :last-child {
     margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   .mission-box > *:empty,
   .vision-box > *:empty {
     display: none;
     height: 0;
+  }
+
+  .mission-box > br,
+  .vision-box > br {
+    display: none;
+  }
+
+  .mission-box p:empty,
+  .vision-box p:empty {
+    display: none;
   }
 }
