@@ -822,3 +822,9 @@ footer {
     margin-right: auto;
   }
 }
+
+@media (max-width: 768px) {
+  .mission-box {
+    margin-bottom: 1rem;
+  }
+}
