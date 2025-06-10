@@ -23,14 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("booking-form");
   const makeSelect = document.getElementById("car-make");
   const modelSelect = document.getElementById("car-model");
-  // Mobile nav toggle
-  const navToggle = document.querySelector(".nav-toggle");
-  const navLinks = document.querySelector(".nav-links");
-  if (navToggle) {
-    navToggle.addEventListener("click", () => {
-      navLinks.classList.toggle("open");
-    });
-  }
 
   const carData = {
     Toyota: ["Corolla", "Camry", "RAV4", "Highlander"],
