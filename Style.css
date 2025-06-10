@@ -81,6 +81,7 @@ nav {
     outline: none;
 }
 
+
 /* Hamburger icon */
 .hamburger {
     display: none;
@@ -745,3 +746,28 @@ footer {
   }
 }
 
+@media (max-width: 768px) {
+  .mission-box,
+  .vision-box {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .mission-box > :first-child,
+  .vision-box > :first-child {
+    margin-top: 0;
+  }
+
+  .mission-box > :last-child,
+  .vision-box > :last-child {
+    margin-bottom: 0;
+  }
+
+  .mission-box > *:empty,
+  .vision-box > *:empty {
+    display: none;
+    height: 0;
+  }
+}
