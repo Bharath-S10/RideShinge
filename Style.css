@@ -112,8 +112,11 @@ nav {
     padding: 8px 0;
 }
 
-.mobile-menu.active {
-    display: flex;
+
+@media (max-width: 768px) {
+    .mobile-menu.open {
+        display: flex;
+    }
 }
 
 

@@ -85,11 +85,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const mobileMenu = document.getElementById("mobileMenu");
   if (hamburger && mobileMenu) {
     hamburger.addEventListener("click", () => {
-      mobileMenu.classList.toggle("active");
+      mobileMenu.classList.toggle("open");
     });
     mobileMenu.querySelectorAll("a").forEach(link => {
       link.addEventListener("click", () => {
-        mobileMenu.classList.remove("active");
+        mobileMenu.classList.remove("open");
       });
     });
   }
