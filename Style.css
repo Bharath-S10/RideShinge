@@ -80,6 +80,11 @@ nav {
     outline: none;
 }
 
+/* Hide hamburger button on larger screens */
+.nav-toggle {
+    display: none;
+}
+
 /* =======================
    Hero Section
 ======================= */
