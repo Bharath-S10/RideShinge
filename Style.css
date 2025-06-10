@@ -861,12 +861,12 @@ footer {
 @media (max-width: 768px) {
   header {
     background-image: url('Images/background-image.png');
-    background-size: contain;
-    background-position: top center;
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-color: #000;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    margin: 0;
+    padding: 0;
   }
 }
