@@ -595,12 +595,16 @@ footer {
     /* Ensure hero background and images scale nicely on mobile */
     header {
         background-size: contain;
+        background-position: top center;
+        background-repeat: no-repeat;
     }
     .hero-logo,
     .gallery-container img {
         width: 100%;
         height: auto;
         object-fit: contain;
+        object-position: top center;
+        display: block;
     }
 }
 @media (max-width: 600px) {
