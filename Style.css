@@ -600,4 +600,37 @@ footer {
         font-size: 18px;
         padding: 0 12px;
     }
+
+    /* Mobile hamburger menu styles */
+    .nav-toggle {
+        display: block;
+        background: none;
+        border: none;
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+        padding: 0 15px;
+    }
+    .logo-title {
+        margin: 0 auto; /* center logos */
+    }
+    .nav-links {
+        display: none; /* hide links until toggled */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background-color: #101940;
+        gap: 0;
+    }
+    .nav-links.open {
+        display: flex; /* show when toggled */
+    }
+    .nav-links li {
+        width: 100%;
+    }
+    .nav-links li a {
+        padding: 15px;
+    }
 }
