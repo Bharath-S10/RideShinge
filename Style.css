@@ -650,9 +650,10 @@ footer {
         max-height: 100vh;
     }
     .hero-content {
-        margin: 0;
-        padding: 24px 16px;
+        margin: 0 auto;
+        padding: 20px 16px;
         gap: 12px;
+        width: fit-content;
     }
     .hero-logo {
         height: 120px;
@@ -722,13 +723,14 @@ footer {
   .hero-content {
     position: static;
     background-color: #0c1d4a;
-    padding: 24px 16px;
+    padding: 20px 16px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 12px;
-    margin: 0;
+    margin: 0 auto;
+    width: fit-content;
   }
   .hero-content img.hero-logo {
     width: 120px;
