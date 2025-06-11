@@ -22,7 +22,7 @@ window.onclick = function (event) {
 function toggleMenu() {
   const menu = document.getElementById("mobileMenu");
   if (menu) {
-    menu.classList.toggle("open");
+    menu.classList.toggle("show");
   }
 }
 
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (mobileMenu) {
     mobileMenu.querySelectorAll("a").forEach(link => {
       link.addEventListener("click", () => {
-        mobileMenu.classList.remove("open");
+        mobileMenu.classList.remove("show");
       });
     });
   }
