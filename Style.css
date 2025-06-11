@@ -704,6 +704,9 @@ footer {
     position: relative;
     background: none;
     padding: 0;
+    display: block;
+    height: auto;
+    margin: 0;
   }
   header::before {
     display: none;
@@ -714,6 +717,7 @@ footer {
     height: auto;
     object-fit: cover;
     max-height: 100vh;
+    margin: 0;
   }
   .hero-content {
     position: static;
