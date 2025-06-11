@@ -612,6 +612,16 @@ footer {
         max-width: 100%;
         padding: 0 16px;
     }
+    /* Extend the navigation bar to ignore body padding */
+    nav {
+        margin-left: -16px;
+        margin-right: -16px;
+    }
+    .nav-container {
+        max-width: none;
+        margin: 0;
+        width: 100%;
+    }
     img,
     .about-card,
     section {
