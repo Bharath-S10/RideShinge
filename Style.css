@@ -911,6 +911,6 @@ footer {
 @media (max-width: 768px) {
   /* Hide the hero logo on mobile to keep layout clean */
   .hero-logo {
-    display: none;
+    display: none !important;
   }
 }
