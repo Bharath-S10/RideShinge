@@ -839,7 +839,7 @@ footer {
 
 @media (max-width: 768px) {
   .mobile-menu {
-    display: flex;
+    display: none;
     position: relative;
     top: auto;
     left: auto;
@@ -853,13 +853,10 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     padding: 20px 0;
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height 0.3s ease-out;
     list-style: none;
   }
-  .mobile-menu.open {
-    max-height: 1000px;
+  .mobile-menu.show {
+    display: flex;
   }
   .mobile-menu li a {
     display: block;
