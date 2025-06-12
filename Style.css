@@ -935,3 +935,16 @@ footer {
   }
 }
 
+
+@media (max-width: 768px) {
+  .blue-box-full {
+    background-color: #101940;
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(-1 * (100vw - 100%) / 2);
+    margin-right: calc(-1 * (100vw - 100%) / 2);
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+}
