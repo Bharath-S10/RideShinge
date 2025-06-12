@@ -921,13 +921,16 @@ footer {
 
 @media (max-width: 768px) {
   .blue-box {
-    width: calc(100% + 32px); /* 16px left + right */
-    margin-left: -16px;
-    margin-right: -16px;
-    background-color: #101940;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
+    background-color: #101940;
   }
 }
 
