@@ -916,3 +916,14 @@ footer {
     display: none !important;
   }
 }
+
+
+
+@media (max-width: 768px) {
+  .blue-box {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    box-sizing: border-box;
+  }
+}
+
