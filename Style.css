@@ -921,8 +921,14 @@ footer {
 
 @media (max-width: 768px) {
   .blue-box {
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
+    width: 100vw; /* Full screen width */
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding-left: 0;
+    padding-right: 0;
     box-sizing: border-box;
   }
 }
