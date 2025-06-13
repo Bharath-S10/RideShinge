@@ -945,3 +945,43 @@ footer {
   }
 }
 
+@media (max-width: 768px) {
+  .nav-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 0 12px;
+    height: 72px;
+    width: 100%;
+  }
+
+  .logo-title {
+    display: contents;
+  }
+
+  .logo-icon {
+    height: 42px;
+    width: auto;
+  }
+
+  .title-image {
+    display: block;
+    margin: 0 auto;
+    max-height: 48px;
+    width: auto;
+    max-width: 140px;
+    object-fit: contain;
+  }
+
+  .hamburger {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    justify-self: end;
+    padding: 4px;
+    display: block;
+  }
+}
+
+
