@@ -30,6 +30,7 @@ nav {
     padding-left: 0;
     position: relative;
 }
+
 .logo-title {
     display: flex;
     align-items: center;
@@ -80,7 +81,6 @@ nav {
     color: #101940;
     outline: none;
 }
-
 
 /* Hamburger icon */
 .hamburger {
@@ -973,6 +973,7 @@ footer {
     object-fit: contain;
   }
 
+
   .hamburger {
     font-size: 24px;
     background: none;
@@ -981,6 +982,45 @@ footer {
     justify-self: end;
     padding: 4px;
     display: block;
+  }
+}
+
+/* Hide mobile logos by default */
+.logo-left-mobile,
+.logo-center-mobile {
+  display: none;
+}
+
+/* Show and position them only on mobile */
+@media (max-width: 768px) {
+  .logo-left-mobile,
+  .logo-center-mobile {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+  }
+
+  .logo-left-mobile {
+    left: 12px;
+  }
+
+  .logo-center-mobile {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .logo-left-mobile img,
+  .logo-center-mobile img {
+    height: 60px; /* Keeps logos large but within nav height */
+    width: auto;
+    object-fit: contain;
+  }
+
+  /* Hide the default .logo-title only on mobile */
+  .logo-title {
+    display: none !important;
   }
 }
 
