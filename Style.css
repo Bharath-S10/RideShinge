@@ -819,25 +819,6 @@ footer {
   }
 }
 
-/* Override layout for mobile to ensure about section is centered */
-@media (max-width: 768px) {
-  .about-section {
-    all: unset;
-    width: 100%;
-    max-width: 95%;
-    margin: 0 auto !important;
-    padding: 1.5rem 1rem;
-    display: block;
-    text-align: center !important;
-    box-sizing: border-box;
-  }
-  .about-section * {
-    text-align: center !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    display: block;
-  }
-}
 
 @media (max-width: 768px) {
   .about-card.about-stacked,
@@ -941,34 +922,10 @@ footer {
     box-sizing: border-box;
     color: white;
     text-align: center;
-  }
-
-  .blue-box button {
-    background-color: #ffd600;
-    color: #101940;
-    padding: 12px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-  }
-
-  .blue-box button:hover {
-    background-color: #fff;
-    color: #101940;
-  }
-}
-
-@media (max-width: 768px) {
-  .blue-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    padding: 20px 0;
-    background-color: #101940;
-    color: white;
   }
 
   .blue-box button {
@@ -988,34 +945,3 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
-  .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 12px;
-    height: 72px;
-  }
-
-  .logo-title {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-
-  .logo-icon {
-    height: 42px;
-    width: auto;
-  }
-
-  .title-image {
-    height: 46px;
-    max-width: 130px;
-    object-fit: contain;
-  }
-
-  .hamburger {
-    font-size: 24px;
-    padding: 4px;
-  }
-}
