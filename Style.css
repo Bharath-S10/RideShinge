@@ -953,3 +953,25 @@ footer {
     box-sizing: border-box;
   }
 }
+
+@media (max-width: 768px) {
+  .full-width-wrapper {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-color: #101940;
+  }
+
+  .blue-box {
+    background-color: #101940;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+    color: white;
+  }
+}
