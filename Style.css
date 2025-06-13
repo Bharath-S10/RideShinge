@@ -920,18 +920,23 @@ footer {
 
 
 @media (max-width: 768px) {
-  .blue-box {
+  .blue-box-wrapper {
     position: relative;
-    left: 0;
-    right: 0;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
     width: 100vw;
-    max-width: 100vw;
-    margin-left: -16px; /* cancels body padding */
-    margin-right: -16px;
+    background-color: #101940;
+  }
+
+  .blue-box {
+    width: 100%;
+    max-width: 100%;
     padding-left: 0;
     padding-right: 0;
-    background-color: #101940;
     box-sizing: border-box;
+    background-color: #101940;
   }
 }
 
