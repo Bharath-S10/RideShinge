@@ -987,3 +987,35 @@ footer {
     color: #101940;
   }
 }
+
+@media (max-width: 768px) {
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+    height: 72px;
+  }
+
+  .logo-title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .logo-icon {
+    height: 42px;
+    width: auto;
+  }
+
+  .title-image {
+    height: 46px;
+    max-width: 130px;
+    object-fit: contain;
+  }
+
+  .hamburger {
+    font-size: 24px;
+    padding: 4px;
+  }
+}
