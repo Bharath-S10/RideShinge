@@ -1029,4 +1029,60 @@ footer {
   }
 }
 
+/* Center alignment fixes for mobile layout */
+@media (max-width: 768px) {
+  /* Center mobile navbar logos */
+  .logo-left-mobile,
+  .logo-center-mobile {
+    position: static;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  /* Center hero content */
+  .hero-content {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Center everything in the about section */
+  .about-section,
+  .about-card,
+  .mv-box,
+  .tagline-badge {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Center gallery images */
+  .gallery-container {
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  /* Center services table */
+  #service-table {
+    margin: 0 auto;
+  }
+
+  /* Center contact form */
+  #booking-form {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* Center footer text */
+  footer {
+    text-align: center;
+  }
+}
+
 
