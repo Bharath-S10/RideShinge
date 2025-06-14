@@ -30,7 +30,6 @@ nav {
     padding-left: 0;
     position: relative;
 }
-
 .logo-title {
     display: flex;
     align-items: center;
@@ -81,6 +80,7 @@ nav {
     color: #101940;
     outline: none;
 }
+
 
 /* Hamburger icon */
 .hamburger {
@@ -651,10 +651,8 @@ footer {
     }
     .hero-content {
         margin: 0;
-        padding: 20px 16px;
+        padding: 24px 16px;
         gap: 12px;
-        width: 100%;
-        max-width: none;
     }
     .hero-logo {
         height: 120px;
@@ -724,26 +722,22 @@ footer {
   .hero-content {
     position: static;
     background-color: #0c1d4a;
-    padding: 16px 16px;
+    padding: 24px 16px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 12px;
     margin: 0;
-    width: 100%;
-    max-width: none;
   }
   .hero-content img.hero-logo {
     width: 120px;
-    margin: 0;
-    margin-bottom: 0;
-    margin-top: 0;
+    margin-bottom: 12px;
   }
   .hero-content p {
     color: white;
     font-size: 16px;
-    margin: 0;
+    margin-bottom: 12px;
   }
   .hero-content button {
     background-color: #FFD700;
@@ -819,6 +813,25 @@ footer {
   }
 }
 
+/* Override layout for mobile to ensure about section is centered */
+@media (max-width: 768px) {
+  .about-section {
+    all: unset;
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto !important;
+    padding: 1.5rem 1rem;
+    display: block;
+    text-align: center !important;
+    box-sizing: border-box;
+  }
+  .about-section * {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+  }
+}
 
 @media (max-width: 768px) {
   .about-card.about-stacked,
@@ -890,199 +903,3 @@ footer {
     max-height: 100vh;
   }
 }
-
-@media (max-width: 768px) {
-  /* Hide the hero logo on mobile to keep layout clean */
-  .hero-logo {
-    display: none !important;
-  }
-}
-
-@media (max-width: 768px) {
-  body {
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-
-  .full-width-wrapper {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    background-color: #101940;
-  }
-
-  .blue-box {
-    background-color: #101940;
-    width: 100%;
-    max-width: 100%;
-    padding: 20px 0;
-    box-sizing: border-box;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .blue-box button {
-    margin-top: 10px;
-    background-color: #ffd600;
-    color: #101940;
-    padding: 12px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-  }
-
-  .blue-box button:hover {
-    background-color: #fff;
-    color: #101940;
-  }
-}
-
-@media (max-width: 768px) {
-  .nav-container {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    align-items: center;
-    padding: 0 12px;
-    height: 72px;
-    width: 100%;
-  }
-
-  .logo-title {
-    display: contents;
-  }
-
-  .logo-icon {
-    height: 42px;
-    width: auto;
-  }
-
-  .title-image {
-    display: block;
-    margin: 0 auto;
-    max-height: 48px;
-    width: auto;
-    max-width: 140px;
-    object-fit: contain;
-  }
-
-
-  .hamburger {
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: white;
-    justify-self: end;
-    padding: 4px;
-    display: block;
-  }
-}
-
-/* Hide mobile logos by default */
-.logo-left-mobile,
-.logo-center-mobile {
-  display: none;
-}
-
-/* Show and position them only on mobile */
-@media (max-width: 768px) {
-  .logo-left-mobile,
-  .logo-center-mobile {
-    display: block;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    height: 100%;
-  }
-
-  .logo-left-mobile {
-    left: 12px;
-  }
-
-  .logo-center-mobile {
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .logo-left-mobile img {
-    height: 60px; /* Keeps logos large but within nav height */
-    width: auto;
-    object-fit: contain;
-  }
-
-  .logo-center-mobile img {
-    height: 80px; /* Slightly larger logo on mobile */
-    width: auto;
-    object-fit: contain;
-  }
-
-  /* Hide the default .logo-title only on mobile */
-  .logo-title {
-    display: none !important;
-  }
-}
-
-/* Center alignment fixes for mobile layout */
-@media (max-width: 768px) {
-  /* Center mobile navbar logos */
-  .logo-left-mobile,
-  .logo-center-mobile {
-    position: static;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-  }
-
-  /* Center hero content */
-  .hero-content {
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  /* Center everything in the about section */
-  .about-section,
-  .about-card,
-  .mv-box,
-  .tagline-badge {
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  /* Center gallery images */
-  .gallery-container {
-    margin: 0 auto;
-    justify-content: center;
-  }
-
-  /* Center services table */
-  #service-table {
-    margin: 0 auto;
-  }
-
-  /* Center contact form */
-  #booking-form {
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  /* Center footer text */
-  footer {
-    text-align: center;
-  }
-}
-
-
