@@ -1011,9 +1011,14 @@ footer {
     transform: translate(-50%, -50%);
   }
 
-  .logo-left-mobile img,
-  .logo-center-mobile img {
+  .logo-left-mobile img {
     height: 60px; /* Keeps logos large but within nav height */
+    width: auto;
+    object-fit: contain;
+  }
+
+  .logo-center-mobile img {
+    height: 80px; /* Slightly larger logo on mobile */
     width: auto;
     object-fit: contain;
   }
