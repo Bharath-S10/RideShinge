@@ -4,7 +4,6 @@ function scrollToContact() {
 }
 
 // Modal open/close
-// openModal is currently unused but retained for potential future modal triggers
 function openModal(id) {
   document.getElementById(id).style.display = "block";
 }
